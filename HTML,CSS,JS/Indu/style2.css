@@ -1,0 +1,74 @@
+html 
+{ 
+    background-color: rgba(255, 255, 255, 0.967);
+}
+.headings
+{
+    text-align: center;
+    background-color: rgba(38, 145, 145, 0.686);
+}
+body 
+{
+    background-color: aqua;
+    margin-right: 8%; 
+    margin-left: 12%;
+}
+.form
+{
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-bottom: 1%;
+    font-size: larger;
+}
+.form label
+{
+    color: rgb(0, 0, 0);
+    padding-left:1%;
+    display:inline-block;
+    width:25%;
+}
+.form input,select
+{
+    color: rgba(0, 0, 0, 0.861);
+    font-size:large;
+    border-radius:5px;
+    margin-left: 2%;
+    padding-left:1%;
+}
+#gender input[type]
+{
+    width:18px;
+    height:18px;
+}
+.submit
+{
+    margin-left: 50%;
+    padding-top: .15%;
+    padding-bottom:1.5%;
+}
+#simage_err,#sname_err,#fname_err,#mname_err,#gender_err,#dob_err,#email_err,#department_err,#level_err
+{
+    color:red;
+    width:50%;
+    padding-left: 26.3%;
+    font-size:medium;
+    margin-left: 3%;
+}
+#simage,#sname,#fname,#mail
+{
+    color:red;
+    position: absolute;
+    visibility: hidden;
+    margin-left: -25px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+#mname
+{
+    color:red;
+    position: absolute;
+    visibility: hidden;
+    margin-left: -25px;
+    margin-bottom: 7px;
+    margin-top: 22px;
+}

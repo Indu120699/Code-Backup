@@ -1,0 +1,253 @@
+<html>
+
+<head>
+    <title>Patient Register Form</title>
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="header">
+            <header>
+                <h1>Patient Register Form</h1>
+            </header>
+        </div>
+
+        <form class="forms" action="">
+            <div>
+            <button class="button">Contact Details</button>
+            <button class="button">Other Details</button>
+            </div>
+            
+            <div class="legend1">
+                <fieldset>
+                    <legend>Primary Details</legend>
+                    <div class="vt">
+                    <label>Medical No:</label>
+                    <input type="number" id="medicalno" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    </div>
+                    <label>Valid till:</label><br>
+                    <input type="date" id="valid till" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Title:</label>
+                    <input type="text" id="title" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Name:</label>
+                    <input type="text" id="name" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Pref. Name:</label>
+                    <input type="text" id="prefname" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Date of birth:</label>
+                    <input type="date" id="dateofbirth" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Sex:</label>
+                    <input type="radio" name="gender" class="gen">Male
+                    <input type="radio" name="gender" class="gen">Female
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <br>
+                    <label>Family Name:</label>
+                    <input type="text" id="familyname" autocomplete="off">
+                    <span></span>
+                    <br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label>Phone</label><br>
+                    <label>Home</label><br>
+                    <input type="text" id="home" autocomplete="off"><br>
+                    <span></span>
+                    <label>Work</label><br>
+                    <input type="text" id="work" autocomplete="off"><br>
+                    <span></span>
+                    <label>Mobile</label><br>
+                    <input type="number" id="mobile" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <label>Fax</label><br>
+                    <input type="number" id="fax" autocomplete="off"><br>
+                    <span></span>
+                    <label>Next of Kin</label><br>
+                    <input type="text" id="nextofkin" autocomplete="off"><br>
+                    <span></span>
+                    <label>Next of Kin Ph:</label><br>
+                    <input type="number" id="nextofkinph" autocomplete="off"><br>
+                    <span></span>
+                    <label>Emergency Number</label><br>
+                    <input type="number" id="emergencynumber" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                    <label>Email</label><br>
+                    <input type="email" id="email" autocomplete="off">
+                    <i class="ion-ios-checkmark"></i>
+                    <i class="ion-android-alert"></i><br>
+                    <span></span>
+                </fieldset>
+            </div>
+
+            <div class="legend2">
+                <fieldset>
+                    <legend>Address Details</legend>
+                    <div class="legend3">
+                        <fieldset>
+                            <legend>Residential Address</legend>
+                            <label>Address 1:</label>
+                            <textarea id="address1" rows="2" cols="20" autocomplete="off"></textarea>
+                            <i class="ion-ios-checkmark"></i>
+                            <i class="ion-android-alert"></i><br>
+                            <span></span>
+                            <br>
+                            <label>Address 2:</label>
+                            <textarea id="address2" rows="2" cols="20" autocomplete="off"></textarea>
+                            <span></span>
+                            <br>
+                            <div class="vt">
+                            <label>Suburb:</label>
+                            <input type="text" id="suburb" autocomplete="off">
+                            <span></span>
+                            <br>
+                            </div>
+                            <label>Country</label>
+                            <select id="country">
+                                <option value="">---select---</option>
+                                <option value="1">India</option>
+                                <option value="2">Brazil</option>
+                            </select>
+                            <i class="ion-ios-checkmark"></i>
+                            <i class="ion-android-alert"></i><br>
+                            <span></span>
+                            <br>
+                            <div class="vt">
+                            <label>Postal Code:</label>
+                            <input type="text" id="prefname" autocomplete="off">
+                            <i class="ion-ios-checkmark"></i>
+                            <i class="ion-android-alert"></i><br>
+                            <span></span>
+                            <br>
+                            </div>
+                            <label>State</label>
+                            <select id="state">
+                                <option value="">---select---</option>
+                                <option value="1">Karnataka</option>
+                                <option value="2">Tamilnadu</option>
+                            </select>
+                            <i class="ion-ios-checkmark"></i>
+                            <i class="ion-android-alert"></i><br>
+                            <span></span>
+                            <br>
+                        </fieldset>
+                    </div>
+                </fieldset>
+                
+                <div class="legend4">
+                    <fieldset>
+                        <legend>Single Address</legend>
+                        <p>Are Mailing Address and Resedential address same?</p>
+                        <input type="checkbox"><label class="yes">Yes</label>
+                        <span></span>
+                    </fieldset>
+                </div>
+                
+                <div class="legend5">
+                    <fieldset>
+                        <legend>Mailing Address</legend>
+                        <label>Address 1:</label>
+                        <textarea id="address1" rows="2" cols="20" autocomplete="off"></textarea>
+                        <i class="ion-ios-checkmark"></i>
+                        <i class="ion-android-alert"></i><br>
+                        <span></span>
+                        <br>
+                        <label>Address 2:</label>
+                        <textarea id="address2" rows="2" cols="20" autocomplete="off"></textarea>
+                        <span></span>
+                        <br>
+                        <div class="vt">
+                        <label>Suburb:</label>
+                        <input type="text" id="suburb" autocomplete="off">
+                        <span></span>
+                        <br>
+                        </div>
+                        <label>Country</label>
+                        <select id="country">
+                            <option value="">---select---</option>
+                            <option value="1">India</option>
+                            <option value="2">Brazil</option>
+                        </select>
+                        <i class="ion-ios-checkmark"></i>
+                        <i class="ion-android-alert"></i><br>
+                        <span></span>
+                        <br>
+                        <div class="vt">
+                        <label>Postal Code:</label>
+                        <input type="text" id="prefname" autocomplete="off">
+                        <i class="ion-ios-checkmark"></i>
+                        <i class="ion-android-alert"></i><br>
+                        <span></span>
+                        <br>
+                        </div>
+                        <label>State</label>
+                        <select id="state">
+                            <option value="">---select---</option>
+                            <option value="1">Karnataka</option>
+                            <option value="2">Tamilnadu</option>
+                        </select>
+                        <i class="ion-ios-checkmark"></i>
+                        <i class="ion-android-alert"></i><br>
+                        <span></span>
+                        <br>
+                    </fieldset>
+                </div>
+            </fieldset>
+        </div>
+        
+        <div class="num">
+            <label>IHI Number</label>
+            <label>80036</label>
+            <input type="number" id="IHI" autocomplete="off">
+            <button class="button">Clear IHI</button><br>
+            <label>Number Status</label>
+            <input type="text" id="numberstatus" autocomplete="off"><br>
+            <label>Record Status</label>
+            <input type="text" id="recordstatus" autocomplete="off"><br>
+            <label>Last Updated</label>
+            <input type="text" id="lastupdated" autocomplete="off"><br>
+        </div>
+        </form>
+
+        <label>Registered by:</label>
+            <input type="number" id="registeredby" autocomplete="off"><br>
+            <br>
+            <button type="button" class="btn">Register</button>
+            <button type="button" class="btn">Clear</button>
+            <button type="button" class="btn">Close</button>
+        
+    </div>
+    <script src="jsfinal.js"></script>
+</body>
+
+</html>

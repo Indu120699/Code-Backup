@@ -1,0 +1,142 @@
+html
+{
+ background-color: white;
+} 
+.modal-body
+{
+ border: solid black;
+ background-color: lightcoral; 
+} 
+/* body
+{
+ border: solid black;
+ background-color: lavender; 
+ margin-left:250px;
+ margin-right:250px;
+} */
+.header 
+{
+ padding: 10px;
+ text-align: center;
+ background: #1abc9c;
+ color: white;
+ font-size: 10px;
+} 
+#img
+{
+ height:80px;
+ display: flex; 
+ padding-bottom: 2.3%;
+} 
+#hg
+{
+ margin-top: -20%;
+}
+.footer 
+{
+ text-align: left;
+ padding: 3px;
+ background-color: grey;
+ color: white;
+}
+input[type='text']
+{
+ height: 25px;
+ width: 40%;
+ border: 1px black solid;
+ border-radius: 5px;
+ margin-left: 29%;
+}
+label
+{
+ margin-right: 25%;
+ margin-left: 29%;
+}
+input[type='radio'] 
+{
+ width: 10%;
+ padding-right:0%;
+ margin-right:0%;
+ margin-left:30%;
+}
+input[type='checkbox']
+{
+ margin-left:30%;
+ margin-right:0%;
+}
+.formfield.lang
+{
+ width: 1%;
+ padding-left: 0%;
+ padding-right: 0%;
+}
+#course
+{
+ margin-left:29%;
+}
+textarea
+{
+ margin-left: 29%;
+ width: 40%;
+}
+.formfield
+{
+ align-items: center;
+ height: 10%;
+ padding-top: 15px;
+}
+.button
+{
+ margin-left: 29%;
+}
+.formfield span
+{
+ font-size: 15px;
+ visibility: hidden;
+ margin-left: 29%;
+}
+.success input,.success select,.success textarea
+{
+ border-color: darkgreen;
+}
+.error input,.error select,.error textarea
+{
+ border-color: red;
+}
+.formfield.error span
+{
+ color: red;
+ visibility: visible;
+}
+.formfield.success i.ion-ios-checkmark
+{
+ color: green;
+ visibility: visible;
+}
+.formfield.error i.ion-android-alert
+{
+ color: red;
+ visibility: visible;
+}
+.formfield.success i.ion-android-alert
+{
+ visibility: hidden;
+}
+.formfield.error i.ion-ios-checkmark
+{
+ visibility: hidden;
+}
+.formfield i.ion-android-alert
+{
+ position: absolute;
+ visibility: hidden;
+ margin-left: -25px;
+ margin-top:4px;
+}
+.formfield i.ion-ios-checkmark
+{
+ position: absolute;
+ visibility: hidden;
+ margin-left: -25px;
+ margin-top:4px;
+}

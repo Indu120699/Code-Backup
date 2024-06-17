@@ -1,0 +1,16 @@
+.mainpage{
+    border: solid black;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left:350px;
+    margin-right:350px;
+}
+#post{
+    margin-left:250px;
+    margin-right:100px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+/* #login{
+    margin-left:50px;
+} */

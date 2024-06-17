@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>assignment2</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="headings">
+            <h1>JSS COLLEGE</h1>
+            <h3>Student Registration Form</h3>
+        </div>
+        <form action="">
+        <div class="form">
+            <!--student image-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">image</span>
+                <label>StudentImage:</label>
+                <input type="file" accept="image/*" id="studentimage">
+                <i class="fa fa-exclamation-circle" id="simage"></i>
+                <label id="simage_err"></label><br>
+            </div>
+
+            <!--student name-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">person</span>
+                <label>Student Name:</label>
+                <input type="text" placeholder="Full Name" id="studentname">
+                <i class="fa fa-exclamation-circle" id="sname"></i>
+                <label id="sname_err"></label>
+            </div>
+
+            <!--father's name-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">man</span>
+                <label>Father's Name:</label>
+                <input type="text" placeholder="Father's Full Name" id="father'sname">
+                <i class="fa fa-exclamation-circle" id="fname"></i>
+                <label id="fname_err"></label>
+            </div>
+
+            <!--mother's name-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">woman</span>
+                <label>Mother's Name:</label>
+                <input type="text" placeholder="Mother's Full Name" id="mother'sname">
+                <i class="fa fa-exclamation-circle" id="mname"></i>
+                <label id="mname_err"></label>
+            </div>
+
+            <!--gender-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">groups</span>
+                <label>Gender:</label>
+                <input type="radio" id="gender" name="Gender">Male
+                <input type="radio" id="gender" name="Gender">Female
+                <input type="radio" id="gender" name="Gender">Other
+                <label id="gender_err"></label>
+            </div>
+
+            <!--date of birth-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">event</span>
+                <label>Date of Birth:</label>
+                <input type="date" id="dateofbirth">
+                <label id="dob_err"></label>
+            </div>
+
+            <!--e-mail-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">contact_mail</span>
+                <label>E-mail:</label>
+                <input type="email" placeholder="email@xyz.com" id="email">
+                <i class="fa fa-exclamation-circle" id="mail"></i>
+                <label id="email_err"></label>
+            </div>
+
+            <!--level-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">arrow_drop_down</span>
+                <label>Level:</label>
+                <select id="level">
+                    <option value="">---select---</option>
+                    <option value="bca">BCA</option>
+                    <option value="be">BE</option>
+                </select>
+                <label id="level_err"></label>
+            </div>
+
+            <!--department-->
+            <div class="formdiv">
+                <span class="material-symbols-outlined">school</span>
+                <label>Department:</label>
+                <select id="department">
+                    <option value="">---select---</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="ee">Electrical Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                </select>
+                <label id="department_err"></label>
+            </div>
+
+        </div>
+        <!--submit-->
+        <div class="submit">
+            <button onClick="validateform()" type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+    <script src="a2js.js"></script>
+</body>
+
+</html>
